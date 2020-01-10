@@ -1354,3 +1354,808 @@ Session ID: 39c2aafd-4091-4a80-bae1-0eaa23deff76
 2020-01-08 17:32:28 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
 2020-01-08 17:32:49 INFO  APITest:59 - Status code is  200
 2020-01-08 17:32:49 INFO  BaseTest:100 - closeBrowser :  
+2020-01-08 17:48:20 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-08 17:48:20 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-08 17:48:20 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-08 17:48:20 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-08 17:48:37 INFO  BaseTest:48 - Starting the test :createAccount  
+2020-01-08 17:48:42 INFO  BaseTest:63 - Starting the test :register  
+2020-01-08 17:48:43 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.4.Final}
+2020-01-08 17:48:43 INFO  Version:54 - HHH000412: Hibernate Core {4.3.5.Final}
+2020-01-08 17:48:43 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2020-01-08 17:48:43 INFO  Environment:346 - HHH000021: Bytecode provider name : javassist
+2020-01-08 17:48:43 WARN  DriverManagerConnectionProviderImpl:93 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2020-01-08 17:48:43 INFO  DriverManagerConnectionProviderImpl:166 - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/postgres]
+2020-01-08 17:48:43 INFO  DriverManagerConnectionProviderImpl:175 - HHH000046: Connection properties: {password=****, user=postgres}
+2020-01-08 17:48:43 INFO  DriverManagerConnectionProviderImpl:180 - HHH000006: Autocommit mode: false
+2020-01-08 17:48:43 INFO  DriverManagerConnectionProviderImpl:102 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-01-08 17:48:43 INFO  Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL81Dialect
+2020-01-08 17:48:43 INFO  LobCreatorBuilder:123 - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2020-01-08 17:48:43 INFO  TransactionFactoryInitiator:62 - HHH000399: Using default transaction strategy (direct JDBC transactions)
+2020-01-08 17:48:43 INFO  ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+2020-01-08 17:48:44 INFO  HibernateDatabaseAccess:33 - Person found:
+2020-01-08 17:49:20 ERROR BaseTest:141 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200103162918, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 29284, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: db3e288a-db5f-4140-9ea8-391dbbbef185
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-08 17:49:20 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-08 17:49:20 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-08 17:49:41 INFO  APITest:59 - Status code is  200
+2020-01-08 17:49:41 INFO  BaseTest:100 - closeBrowser :  
+2020-01-09 19:24:14 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 19:24:14 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 19:24:14 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 19:24:14 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 19:24:40 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-09 19:24:45 INFO  BaseTest:67 - Starting the test :register  
+2020-01-09 19:24:46 ERROR BaseTest:176 - 
+2020-01-09 19:24:46 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-09 19:24:46 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-09 19:25:08 INFO  APITest:59 - Status code is  200
+2020-01-09 19:25:08 INFO  BaseTest:100 - closeBrowser :  
+2020-01-09 19:26:30 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 19:26:30 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 19:26:30 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 19:26:30 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 19:26:47 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-09 19:26:52 INFO  BaseTest:67 - Starting the test :register  
+2020-01-09 19:26:53 ERROR BaseTest:176 - 
+2020-01-09 19:26:53 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-09 19:26:53 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-09 19:27:14 INFO  APITest:59 - Status code is  200
+2020-01-09 19:27:14 INFO  BaseTest:100 - closeBrowser :  
+2020-01-09 19:28:31 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 19:28:31 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 19:28:31 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 19:28:31 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 19:28:53 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-09 19:28:58 INFO  BaseTest:67 - Starting the test :register  
+2020-01-09 19:31:06 ERROR BaseTest:176 - 
+2020-01-09 19:36:51 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 19:36:51 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 19:36:51 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 19:36:51 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 19:36:54 ERROR BaseTest:68 - permission denied
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+2020-01-09 19:36:54 ERROR BaseTest:44 - 
+2020-01-09 19:36:55 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-09 19:36:55 ERROR BaseTest:58 - 
+2020-01-09 19:36:55 INFO  BaseTest:67 - Starting the test :register  
+2020-01-09 19:38:44 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 19:38:44 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 19:38:44 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 19:38:44 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 19:39:06 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-09 19:39:11 INFO  BaseTest:67 - Starting the test :register  
+2020-01-09 19:40:59 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 19:40:59 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 19:40:59 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 19:40:59 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 19:41:22 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-09 19:41:27 INFO  BaseTest:67 - Starting the test :register  
+2020-01-09 19:43:42 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 19:43:42 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 19:43:42 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 19:43:42 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 19:44:01 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-09 19:44:06 INFO  BaseTest:67 - Starting the test :register  
+2020-01-09 19:45:37 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 19:45:37 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 19:45:37 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 19:45:37 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 19:45:55 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-09 19:46:01 INFO  BaseTest:67 - Starting the test :register  
+2020-01-09 20:04:48 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 20:04:48 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 20:04:48 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 20:04:48 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 20:05:17 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-09 20:05:22 INFO  BaseTest:67 - Starting the test :register  
+2020-01-09 20:05:59 ERROR BaseTest:171 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 7016, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1448bf83-134b-4bf9-89b9-eddf9bee0784
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-09 20:05:59 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-09 20:05:59 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-09 20:17:43 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 20:17:43 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 20:17:43 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 20:17:43 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 20:18:07 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-09 20:18:12 INFO  BaseTest:68 - Starting the test :register  
+2020-01-09 20:18:49 ERROR BaseTest:160 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 24980, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7adbeb22-b6ba-448f-8a76-eb5c2d818b6f
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-09 20:18:49 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-09 20:18:49 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-09 20:19:12 INFO  APITest:59 - Status code is  200
+2020-01-09 20:19:13 INFO  BaseTest:100 - closeBrowser :  
+2020-01-09 20:19:53 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 20:19:53 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 20:19:53 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 20:19:53 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 20:20:16 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-09 20:20:21 INFO  BaseTest:68 - Starting the test :register  
+2020-01-09 20:20:59 ERROR BaseTest:160 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 22388, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c7ef9bb4-b259-4d20-a67f-1cd4f33acab9
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-09 20:20:59 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-09 20:20:59 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-09 20:21:19 INFO  APITest:59 - Status code is  200
+2020-01-09 20:21:20 INFO  BaseTest:100 - closeBrowser :  
+2020-01-09 20:22:47 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 20:22:47 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 20:22:47 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 20:22:47 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 20:23:19 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-09 20:23:25 INFO  BaseTest:68 - Starting the test :register  
+2020-01-09 20:24:45 ERROR BaseTest:161 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 25976, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 87f598c6-5cf5-418a-b708-b3a3f25174a7
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-09 20:25:01 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-09 20:25:01 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-09 20:25:21 INFO  APITest:59 - Status code is  200
+2020-01-09 20:25:22 INFO  BaseTest:100 - closeBrowser :  
+2020-01-09 20:25:43 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 20:25:43 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 20:25:44 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 20:25:44 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 20:26:08 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-09 20:26:13 INFO  BaseTest:68 - Starting the test :register  
+2020-01-09 20:31:43 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 20:31:43 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 20:31:43 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 20:31:43 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 20:32:13 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-09 20:32:18 INFO  BaseTest:68 - Starting the test :register  
+2020-01-09 20:32:52 ERROR BaseTest:162 - Index 3 out of bounds for length 1
+2020-01-09 20:32:52 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-09 20:32:52 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-09 20:33:13 INFO  APITest:59 - Status code is  200
+2020-01-09 20:33:13 INFO  BaseTest:100 - closeBrowser :  
+2020-01-09 20:34:49 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 20:34:49 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 20:34:49 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 20:34:49 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 20:35:08 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-09 20:35:13 INFO  BaseTest:68 - Starting the test :register  
+2020-01-09 20:35:47 ERROR BaseTest:162 - Index 2 out of bounds for length 1
+2020-01-09 20:35:47 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-09 20:35:47 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-09 20:36:08 INFO  APITest:59 - Status code is  200
+2020-01-09 20:36:08 INFO  BaseTest:100 - closeBrowser :  
+2020-01-09 20:36:56 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 20:36:56 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 20:36:56 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 20:36:56 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 20:37:22 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-09 20:37:27 INFO  BaseTest:68 - Starting the test :register  
+2020-01-09 20:39:48 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 20:39:48 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 20:39:48 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 20:39:48 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 20:40:12 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-09 20:40:17 INFO  BaseTest:68 - Starting the test :register  
+2020-01-09 20:42:59 ERROR BaseTest:162 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 14604, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: dab86b73-408b-48f8-9194-88afc3749e9d
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-09 20:42:59 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-09 20:42:59 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-09 20:43:20 INFO  APITest:59 - Status code is  200
+2020-01-09 20:43:20 INFO  BaseTest:100 - closeBrowser :  
+2020-01-09 20:44:45 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 20:44:45 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 20:44:45 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 20:44:45 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 20:45:02 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-09 20:45:07 INFO  BaseTest:68 - Starting the test :register  
+2020-01-09 20:45:44 ERROR BaseTest:162 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 15900, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 35eb3894-3fbf-4ceb-9222-79a76944795c
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-09 20:45:44 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-09 20:45:44 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-09 20:46:05 INFO  APITest:59 - Status code is  200
+2020-01-09 20:46:05 INFO  BaseTest:100 - closeBrowser :  
+2020-01-09 20:46:39 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 20:46:39 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 20:46:39 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 20:46:39 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 20:46:58 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-09 20:47:03 INFO  BaseTest:68 - Starting the test :register  
+2020-01-09 20:47:41 ERROR BaseTest:162 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 27052, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1f7c636e-5074-40ff-b741-9dba9f0f8bd5
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-09 20:47:41 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-09 20:47:41 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-09 20:48:01 INFO  APITest:59 - Status code is  200
+2020-01-09 20:48:02 INFO  BaseTest:100 - closeBrowser :  
+2020-01-09 20:53:31 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 20:53:31 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 20:53:31 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 20:53:31 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 20:53:53 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-09 20:53:59 INFO  BaseTest:68 - Starting the test :register  
+2020-01-09 20:54:32 ERROR BaseTest:162 - Index 4 out of bounds for length 4
+2020-01-09 20:54:32 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-09 20:54:32 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-09 20:54:53 INFO  APITest:59 - Status code is  200
+2020-01-09 20:54:53 INFO  BaseTest:100 - closeBrowser :  
+2020-01-09 21:06:33 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 21:06:33 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 21:06:33 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 21:06:33 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 21:06:55 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-09 21:07:00 INFO  BaseTest:68 - Starting the test :register  
+2020-01-09 21:07:37 ERROR BaseTest:164 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 20912, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 025a3620-a7a7-48f5-aee2-894005cd3a62
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-09 21:07:37 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-09 21:07:37 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-09 21:07:58 INFO  APITest:59 - Status code is  200
+2020-01-09 21:07:59 INFO  BaseTest:100 - closeBrowser :  
+2020-01-09 21:12:20 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 21:12:20 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 21:12:20 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 21:12:20 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 21:12:38 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-09 21:12:43 INFO  BaseTest:68 - Starting the test :register  
+2020-01-09 21:13:21 ERROR BaseTest:164 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 13948, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 10342d65-21f3-49d6-8ec0-766fe2820f37
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-09 21:13:21 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-09 21:13:21 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-09 21:13:42 INFO  APITest:59 - Status code is  200
+2020-01-09 21:13:42 INFO  BaseTest:100 - closeBrowser :  
+2020-01-09 21:15:26 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 21:15:26 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 21:15:26 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 21:15:26 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 21:15:50 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-09 21:15:55 INFO  BaseTest:68 - Starting the test :register  
+2020-01-09 21:16:32 ERROR BaseTest:164 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 17180, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f1023aa5-b461-4263-933e-c26cf87c9fcd
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-09 21:16:32 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-09 21:16:32 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-09 21:16:53 INFO  APITest:59 - Status code is  200
+2020-01-09 21:16:53 INFO  BaseTest:100 - closeBrowser :  
+2020-01-09 21:17:13 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 21:17:13 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 21:17:13 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 21:17:13 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 21:17:34 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-09 21:17:39 INFO  BaseTest:68 - Starting the test :register  
+2020-01-09 21:18:17 ERROR BaseTest:162 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 27436, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: efe3e1aa-1839-4a69-8d30-49cd112f76d8
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-09 21:18:17 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-09 21:18:17 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-09 21:18:37 INFO  APITest:59 - Status code is  200
+2020-01-09 21:18:38 INFO  BaseTest:100 - closeBrowser :  
+2020-01-09 21:18:51 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 21:18:51 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 21:18:51 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 21:18:51 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 21:19:24 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-09 21:19:30 INFO  BaseTest:68 - Starting the test :register  
+2020-01-09 21:20:07 ERROR BaseTest:162 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 20020, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7e3cbc15-23f2-4798-aa1a-f7b47344299f
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-09 21:20:07 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-09 21:20:07 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-09 21:20:28 INFO  APITest:59 - Status code is  200
+2020-01-09 21:20:29 INFO  BaseTest:100 - closeBrowser :  
+2020-01-09 21:20:58 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 21:20:58 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 21:20:58 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 21:20:58 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 21:21:18 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-09 21:21:23 INFO  BaseTest:68 - Starting the test :register  
+2020-01-09 21:22:01 ERROR BaseTest:162 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 9028, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cb089f2f-d9a2-454a-8045-3a55be56c141
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-09 21:22:01 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-09 21:22:01 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-09 21:22:22 INFO  APITest:59 - Status code is  200
+2020-01-09 21:22:22 INFO  BaseTest:100 - closeBrowser :  
+2020-01-09 21:22:33 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 21:22:33 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 21:22:33 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 21:22:33 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 21:22:54 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-09 21:22:59 INFO  BaseTest:68 - Starting the test :register  
+2020-01-09 21:23:37 ERROR BaseTest:162 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 14660, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9ebe4aa7-7a00-4566-8c1c-9703c9c5d772
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-09 21:23:37 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-09 21:23:37 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-09 21:23:58 INFO  APITest:59 - Status code is  200
+2020-01-09 21:23:58 INFO  BaseTest:100 - closeBrowser :  
+2020-01-09 21:24:14 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 21:24:14 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 21:24:15 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 21:24:15 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 21:24:45 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-09 21:24:50 INFO  BaseTest:68 - Starting the test :register  
+2020-01-09 21:25:27 ERROR BaseTest:162 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 27420, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cad26794-9ba0-4f57-ab94-e5ba7f824852
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-09 21:25:27 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-09 21:25:27 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-09 21:25:48 INFO  APITest:59 - Status code is  200
+2020-01-09 21:25:48 INFO  BaseTest:100 - closeBrowser :  
+2020-01-09 21:27:22 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 21:27:22 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 21:27:22 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 21:27:22 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 21:27:56 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-09 21:28:01 INFO  BaseTest:68 - Starting the test :register  
+2020-01-09 21:28:38 ERROR BaseTest:163 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 14728, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4cedf8c1-7778-48de-85ea-41a05567b0ae
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-09 21:28:38 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-09 21:28:38 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-09 21:28:59 INFO  APITest:59 - Status code is  200
+2020-01-09 21:28:59 INFO  BaseTest:100 - closeBrowser :  
+2020-01-09 23:04:02 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 23:04:02 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 23:04:02 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 23:04:02 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 23:05:13 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-09 23:05:19 INFO  BaseTest:68 - Starting the test :register  
+2020-01-09 23:05:57 ERROR BaseTest:172 - Index 1 out of bounds for length 1
+2020-01-09 23:05:57 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-09 23:05:57 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-09 23:06:19 INFO  APITest:59 - Status code is  200
+2020-01-09 23:06:20 INFO  BaseTest:100 - closeBrowser :  
+2020-01-09 23:09:47 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 23:09:47 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 23:09:47 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 23:09:47 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 23:10:09 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-09 23:10:14 INFO  BaseTest:68 - Starting the test :register  
+2020-01-09 23:10:50 ERROR BaseTest:172 - Index 4 out of bounds for length 4
+2020-01-09 23:10:50 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-09 23:10:50 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-09 23:11:11 INFO  APITest:59 - Status code is  200
+2020-01-09 23:11:11 INFO  BaseTest:100 - closeBrowser :  
+2020-01-09 23:15:36 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 23:15:36 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 23:15:36 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 23:15:36 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 23:16:13 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-09 23:16:19 INFO  BaseTest:68 - Starting the test :register  
+2020-01-09 23:16:20 ERROR BaseTest:172 - Index -1 out of bounds for length 1
+2020-01-09 23:16:20 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-09 23:16:20 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-09 23:16:41 INFO  APITest:59 - Status code is  200
+2020-01-09 23:16:41 INFO  BaseTest:100 - closeBrowser :  
+2020-01-09 23:17:41 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 23:17:41 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 23:17:41 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 23:17:41 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 23:18:10 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-09 23:18:15 INFO  BaseTest:68 - Starting the test :register  
+2020-01-09 23:18:17 ERROR BaseTest:172 - Index 1 out of bounds for length 1
+2020-01-09 23:18:17 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-09 23:18:17 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-09 23:18:38 INFO  APITest:59 - Status code is  200
+2020-01-09 23:18:39 INFO  BaseTest:100 - closeBrowser :  
+2020-01-09 23:18:59 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 23:18:59 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 23:18:59 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 23:18:59 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 23:19:26 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-09 23:19:31 INFO  BaseTest:68 - Starting the test :register  
+2020-01-09 23:20:06 ERROR BaseTest:172 - Index 4 out of bounds for length 4
+2020-01-09 23:20:06 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-09 23:20:06 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-09 23:20:27 INFO  APITest:59 - Status code is  200
+2020-01-09 23:20:27 INFO  BaseTest:100 - closeBrowser :  
+2020-01-09 23:22:07 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 23:22:07 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 23:22:07 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 23:22:07 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 23:22:29 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-09 23:22:35 INFO  BaseTest:68 - Starting the test :register  
+2020-01-09 23:23:12 ERROR BaseTest:172 - Index -1 out of bounds for length 4
+2020-01-09 23:23:12 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-09 23:23:12 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-09 23:23:32 INFO  APITest:59 - Status code is  200
+2020-01-09 23:23:33 INFO  BaseTest:100 - closeBrowser :  
+2020-01-09 23:25:48 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-09 23:25:48 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-09 23:25:48 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-09 23:25:48 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-09 23:26:09 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-09 23:26:14 INFO  BaseTest:68 - Starting the test :register  
+2020-01-09 23:26:49 ERROR BaseTest:172 - Index 4 out of bounds for length 4
+2020-01-09 23:26:49 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-09 23:26:49 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-09 23:27:10 INFO  APITest:59 - Status code is  200
+2020-01-09 23:27:10 INFO  BaseTest:100 - closeBrowser :  
+2020-01-10 04:56:59 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-10 04:56:59 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-10 04:56:59 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-10 04:56:59 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-10 04:57:18 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-10 04:57:23 INFO  BaseTest:68 - Starting the test :register  
+2020-01-10 04:57:57 ERROR BaseTest:172 - Index 4 out of bounds for length 4
+2020-01-10 04:57:57 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-10 04:57:57 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-10 04:58:18 INFO  APITest:59 - Status code is  200
+2020-01-10 04:58:19 INFO  BaseTest:100 - closeBrowser :  
+2020-01-10 05:01:55 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-10 05:01:55 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-10 05:01:55 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-10 05:01:55 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-10 05:02:12 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-10 05:02:18 INFO  BaseTest:68 - Starting the test :register  
+2020-01-10 05:02:56 ERROR BaseTest:172 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 22168, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 59929876-1980-426f-a7b6-82ba9e84eb65
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-10 05:02:56 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-10 05:02:56 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-10 05:03:16 INFO  APITest:59 - Status code is  200
+2020-01-10 05:03:17 INFO  BaseTest:100 - closeBrowser :  
+2020-01-10 05:04:14 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-10 05:04:14 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-10 05:04:14 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-10 05:04:14 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-10 05:04:32 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-10 05:04:37 INFO  BaseTest:68 - Starting the test :register  
+2020-01-10 05:05:15 ERROR BaseTest:172 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 18748, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5283d0bb-72ed-4f62-9e83-8ff352ac5e16
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-10 05:05:15 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-10 05:05:15 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-10 05:05:35 INFO  APITest:59 - Status code is  200
+2020-01-10 05:05:36 INFO  BaseTest:100 - closeBrowser :  
+2020-01-10 05:07:36 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-10 05:07:36 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-10 05:07:36 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-10 05:07:36 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-10 05:07:53 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-10 05:07:59 INFO  BaseTest:68 - Starting the test :register  
+2020-01-10 05:08:36 ERROR BaseTest:173 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 13940, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9f227a1c-9502-478b-8b61-1ee4bfee630e
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-10 05:08:36 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-10 05:08:36 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-10 05:08:57 INFO  APITest:59 - Status code is  200
+2020-01-10 05:08:57 INFO  BaseTest:100 - closeBrowser :  
+2020-01-10 05:09:41 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-10 05:09:41 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-10 05:09:41 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-10 05:09:41 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-10 05:09:56 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-10 05:10:01 INFO  BaseTest:68 - Starting the test :register  
+2020-01-10 05:10:38 ERROR BaseTest:173 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 16484, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 04fa5762-0746-4c8c-b674-7065c73245dc
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-10 05:10:38 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-10 05:10:38 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-10 05:10:59 INFO  APITest:59 - Status code is  200
+2020-01-10 05:11:00 INFO  BaseTest:100 - closeBrowser :  
+2020-01-10 05:11:13 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-10 05:11:13 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-10 05:11:13 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-10 05:11:13 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-10 05:11:29 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-10 05:11:35 INFO  BaseTest:68 - Starting the test :register  
+2020-01-10 05:12:12 ERROR BaseTest:173 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 9956, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 10a9e4bf-1e22-4bdc-bf37-40b5a82ccefa
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-10 05:12:12 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-10 05:12:12 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-10 05:12:33 INFO  APITest:59 - Status code is  200
+2020-01-10 05:12:33 INFO  BaseTest:100 - closeBrowser :  
+2020-01-10 05:14:13 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-10 05:14:13 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-10 05:14:13 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-10 05:14:13 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-10 05:14:30 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-10 05:14:35 INFO  BaseTest:68 - Starting the test :register  
+2020-01-10 05:15:12 ERROR BaseTest:173 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 19928, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a4aa8476-6b53-44be-a974-3f7aadb66ad8
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-10 05:15:12 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-10 05:15:12 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-10 05:15:29 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-10 05:15:29 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-10 05:15:29 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-10 05:15:29 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-10 05:15:33 INFO  APITest:59 - Status code is  200
+2020-01-10 05:15:33 INFO  BaseTest:100 - closeBrowser :  
+2020-01-10 05:15:47 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-10 05:15:53 INFO  BaseTest:68 - Starting the test :register  
+2020-01-10 05:16:30 ERROR BaseTest:173 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 12120, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 45a39925-89aa-419d-abb0-3e6f7e840dc9
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-10 05:16:30 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-10 05:16:30 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-10 05:16:51 INFO  APITest:59 - Status code is  200
+2020-01-10 05:16:52 INFO  BaseTest:100 - closeBrowser :  
+2020-01-10 05:16:56 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-10 05:16:56 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-10 05:16:56 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-10 05:16:56 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-10 05:17:14 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-10 05:17:19 INFO  BaseTest:68 - Starting the test :register  
+2020-01-10 05:17:56 ERROR BaseTest:173 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 19564, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 40e6c4ee-68b3-4f93-ad71-dd0e990c9a6b
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-10 05:17:56 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-10 05:17:56 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-10 05:18:17 INFO  APITest:59 - Status code is  200
+2020-01-10 05:18:17 INFO  BaseTest:100 - closeBrowser :  
+2020-01-10 05:18:25 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-10 05:18:25 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-10 05:18:26 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-10 05:18:26 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-10 05:18:43 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-10 05:18:48 INFO  BaseTest:68 - Starting the test :register  
+2020-01-10 05:19:25 ERROR BaseTest:173 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 17300, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f71411d8-c586-4b58-91f4-610708f959f6
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-10 05:19:25 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-10 05:19:25 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-10 05:19:44 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-10 05:19:44 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-10 05:19:44 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-10 05:19:44 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-10 05:19:46 INFO  APITest:59 - Status code is  200
+2020-01-10 05:19:46 INFO  BaseTest:100 - closeBrowser :  
+2020-01-10 05:20:03 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-10 05:20:08 INFO  BaseTest:68 - Starting the test :register  
+2020-01-10 05:20:45 ERROR BaseTest:173 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 18928, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 805d64e0-4e94-4c91-9a7d-e8d321695d36
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-10 05:20:45 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-10 05:20:45 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-10 05:21:06 INFO  APITest:59 - Status code is  200
+2020-01-10 05:21:06 INFO  BaseTest:100 - closeBrowser :  
+2020-01-10 05:21:48 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-10 05:21:48 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-10 05:21:48 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-10 05:21:48 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-10 05:22:02 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-10 05:22:08 INFO  BaseTest:68 - Starting the test :register  
+2020-01-10 05:22:45 ERROR BaseTest:173 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 23420, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ea73503a-675c-4be7-8f2e-0c441171377d
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-10 05:22:45 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-10 05:22:45 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-10 05:23:05 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-10 05:23:05 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-10 05:23:05 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-10 05:23:05 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-10 05:23:06 INFO  APITest:59 - Status code is  200
+2020-01-10 05:23:06 INFO  BaseTest:100 - closeBrowser :  
+2020-01-10 05:23:24 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-10 05:23:29 INFO  BaseTest:68 - Starting the test :register  
+2020-01-10 05:24:06 ERROR BaseTest:173 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 6336, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bddabf7e-aab3-4232-98ad-5945a2bf545e
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-10 05:24:07 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-10 05:24:07 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-10 05:24:27 INFO  APITest:59 - Status code is  200
+2020-01-10 05:24:27 INFO  BaseTest:100 - closeBrowser :  
+2020-01-10 05:26:46 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-10 05:26:46 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-10 05:26:46 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-10 05:26:46 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-10 05:27:04 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-10 05:27:09 INFO  BaseTest:68 - Starting the test :register  
+2020-01-10 05:27:47 ERROR BaseTest:173 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 4920, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 268a569e-1bd6-4587-88cd-2421ae7194ee
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-10 05:27:47 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-10 05:27:47 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-10 05:28:07 INFO  APITest:59 - Status code is  200
+2020-01-10 05:28:08 INFO  BaseTest:100 - closeBrowser :  
+2020-01-10 05:29:12 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-10 05:29:12 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-10 05:29:12 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-10 05:29:12 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-10 05:29:28 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-10 05:29:33 INFO  BaseTest:68 - Starting the test :register  
+2020-01-10 05:30:11 ERROR BaseTest:162 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 18512, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 637b8e8c-2202-473c-b2d3-3a851fcefc34
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-10 05:30:11 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-10 05:30:11 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-10 05:30:32 INFO  APITest:59 - Status code is  200
+2020-01-10 05:30:32 INFO  BaseTest:100 - closeBrowser :  
+2020-01-10 05:31:51 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-10 05:31:51 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-10 05:31:51 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-10 05:31:51 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-10 05:32:06 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-10 05:32:11 INFO  BaseTest:68 - Starting the test :register  
+2020-01-10 05:32:49 ERROR BaseTest:162 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 4728, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fae6391a-a45f-4a79-9ac9-ca5281fbbd45
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-10 05:32:49 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-10 05:32:49 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-10 05:33:10 INFO  APITest:59 - Status code is  200
+2020-01-10 05:33:10 INFO  BaseTest:100 - closeBrowser :  
+2020-01-10 05:33:30 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-10 05:33:30 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-10 05:33:30 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-10 05:33:30 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-10 05:33:46 INFO  BaseTest:52 - Starting the test :createAccount  
+2020-01-10 05:33:51 INFO  BaseTest:68 - Starting the test :register  
+2020-01-10 05:34:29 ERROR BaseTest:162 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 18584, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e1ece741-9879-457d-9936-3a5911dd39b7
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-10 05:34:29 INFO  APITest:34 - API BeforeMethod : Setting up 
+2020-01-10 05:34:29 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-10 05:34:50 INFO  APITest:59 - Status code is  200
+2020-01-10 05:34:50 INFO  BaseTest:100 - closeBrowser :  

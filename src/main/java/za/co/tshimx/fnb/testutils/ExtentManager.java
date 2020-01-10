@@ -25,7 +25,7 @@ public class ExtentManager {
             String date = simpleDateFormat.format(new Date());
             extent = new ExtentReports(System.getProperty("user.dir") + "//reports//FNB_Automation_Assessment_Report_" + date + ".html");
             extent.loadConfig(new File(System.getProperty("user.dir") + "//ReportsConfig.xml"));
-            extent.addSystemInfo("Selenium Version", "x.xxx.xx").addSystemInfo("Environment", "QA");
+            extent.addSystemInfo("Selenium Version", "3.141.59").addSystemInfo("Environment", "QA");
         }
         return extent;
     }

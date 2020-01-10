@@ -6,6 +6,9 @@
 package za.co.tshimx.fnb.web.testcases;
 
 import com.relevantcodes.extentreports.LogStatus;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Random;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.PageFactory;
@@ -17,6 +20,7 @@ import za.co.tshimx.fnb.pageobjects.RegisterPageObjects;
 import za.co.tshimx.fnb.testutils.ExtentTestManager;
 import za.co.tshimx.fnb.utils.HibernateDatabaseAccess;
 import za.co.tshimx.fnb.utils.MobileNumberGenerator;
+import za.co.tshimx.fnb.utils.XLUtils;
 
 /**
  *
@@ -54,29 +58,41 @@ public class HomePageTest extends BaseTest {
         } catch (Exception e) {
             logger.error(e.getMessage());
         }
-
     }
 
     @Test(dependsOnMethods = {"createAccount"})
-    public void register() {
+    public void register()  {
         try {
+            
             logger.info("Starting the test :register  ");
             RegisterPageObjects registerPage = PageFactory.initElements(driver, RegisterPageObjects.class);
             // database aceess
-            HibernateDatabaseAccess dbAccess = new HibernateDatabaseAccess();
-            Person person = dbAccess.getPersonDetails();
+            Person person=null ;
+            if(env_prop.getProperty("firefox.webdriver.key").equalsIgnoreCase("true")){
+               HibernateDatabaseAccess dbAccess = new HibernateDatabaseAccess();
+               person = dbAccess.getPersonDetails();
+            }else{
+                    String filePath= System.getProperty("user.dir")+"/data_files/testdata.xlsx";
+                    String userdata[][] = getData(filePath,  "customer");
+                    person = new Person();
+                    person.setUsername(userdata[0][1]);
+                    person.setEmail(userdata[0][2]);
+                    person.setFirstName(userdata[0][3]);
+                    person.setSurname(userdata[0][4]);
+                    person.setTitle(userdata[0][5]);
+                    person.setIdNumber(userdata[0][6]);
+                    person.setRsa_citizen(userdata[0][7]);
+                    person.setPassword(userdata[0][8]);                     
+            }   
 
             registerPage.setTitle(person.getTitle()); 
             registerPage.setEmail(person.getEmail());
             registerPage.setMobileNumber(MobileNumberGenerator.getPhoneNumber());
             registerPage.setCitizen(person.getRsa_citizen());
-////        registerPage.setTitle("DR");
-////        registerPage.setEmail("maslwnyn@gmail.com");
-////        registerPage.setMobileNumber(MobileNumberGenerator.getPhoneNumber());
-////        registerPage.setCitizen("Yes");
+
             registerPage.setRsaID("6410015366");
             registerPage.setUsername(person.getUsername());            
-////        registerPage.setUsername("tshimologo");
+
             Thread.sleep(10000);
             if (driver.findElement(By.xpath("//*[@ng-message='minlength']")).getText().equalsIgnoreCase("South African ID numbers are thirteen digits.")) {
                 Assert.assertTrue(true, "Validation: South African ID numbers are thirteen digits - passed test");
@@ -85,7 +101,7 @@ public class HomePageTest extends BaseTest {
             }
             registerPage.RsaIDClear();
             registerPage.setRsaID("1234567890123");
-//          registerPage.setPassword("Tester1234*");
+
             registerPage.setPassword(person.getPassword());
             Thread.sleep(10000);
             if (driver.findElement(By.xpath("//*[@ng-message='aiValIdNumber']")).getText().equalsIgnoreCase("Number entered is not a valid SA ID number.")) {
@@ -99,16 +115,14 @@ public class HomePageTest extends BaseTest {
                     
                 ExtentTestManager.getTest().log(LogStatus.FAIL, "Validation: Number entered is not a valid SA ID number. - Failed test");
                 takescreenshot();
-            }
-            
-//          registerPage.setFirstName("Tshimologo");
-//          registerPage.setSurname("Maselwanyane");
+            }            
+
             registerPage.setFirstName(person.getFirstName());           
             registerPage.setSurname(person.getSurname());
             
           
             registerPage.RsaIDClear();
-//          registerPage.setRsaID("8806014800082");
+
             registerPage.setRsaID(person.getIdNumber());
             String screenshotPath5 = BaseTest.getScreenshot(driver, "screenshot_");
             ExtentTestManager.getTest().log(LogStatus.INFO, ExtentTestManager.getTest().addScreenCapture(screenshotPath5));
@@ -116,8 +130,13 @@ public class HomePageTest extends BaseTest {
             js.executeScript("window.scrollBy(0,1000)");
             takescreenshot();
             // Select Product
-            String selected_product = "Derivatives Trader";
-            if (selected_product.equalsIgnoreCase("Local Trading Account")) {
+            String filePath= System.getProperty("user.dir")+"/data_files/testdata.xlsx";
+            Random random = new Random();
+            String userdata[][] = getData(filePath,  "product");
+            
+            int randomNumber = random.nextInt(4);
+            String selected_product = userdata[randomNumber][0];
+             if (selected_product.equalsIgnoreCase("Local Trading Account")) {
                 registerPage.selectProduct1();
             } else if (selected_product.equalsIgnoreCase("Derivatives Trader")) {
                 registerPage.selectProduct2();
@@ -145,4 +164,26 @@ public class HomePageTest extends BaseTest {
            
         }
     }
+        
+    public String[][] getData(String filePath, String sheet) throws IOException {
+        
+        int rowCount = XLUtils.getRowCount(filePath, sheet);
+        int colCount = XLUtils.getCellCount(filePath, sheet, 0);
+        String data[][] = new String[rowCount][colCount];
+        for (int i = 1; i <= rowCount; i++) {
+
+            for (int j = 0; j < colCount; j++) {
+
+                data[i - 1][j] = XLUtils.getCellData(filePath, sheet, i, j);
+                //System.out.print("\t"+ data[i - 1][j]) ;
+
+            }
+            //System.out.println();
+            
+        }
+        return data;
+    }
 }
+
+
+
