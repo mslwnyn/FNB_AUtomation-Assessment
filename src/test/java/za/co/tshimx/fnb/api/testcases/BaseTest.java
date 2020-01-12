@@ -14,7 +14,7 @@ public class BaseTest {
         logger.info("API BaseTest :  properties loaded  Successfully " );
     }
 
-
+   
     public void loadProperties()  {
         try {
             InputStream inputStream = getClass().getClassLoader().getResourceAsStream("rest_config.properties");

@@ -26,7 +26,7 @@ public class HomePageObjects {
 
     
 
-    public void ClickOpenAccountLink() {
+    public void clickOpenAccountLink() {
         this.openAccountLink.click();
     }
     

@@ -43,54 +43,66 @@ public class BaseTest {
     WebDriverWait wait;
     Properties env_prop;
     WebElement html;
+    static String browserType;
 
     @BeforeSuite
     public void beforeSuite() throws Exception {
         logger.info("Before Suite : loading properties ");
-        loadProperties();
+        
     }
 
     @BeforeTest
     @Parameters({"browser"})
     public void setUp(String browser) throws Exception {
+        browserType = browser;
         logger.info("setupTest :  " + browser);
+        loadProperties();
         if (browser.equalsIgnoreCase("firefox")) {
             try {
                 System.setProperty(env_prop.getProperty("firefox.webdriver.key"), env_prop.getProperty("firefox.webdriver.value"));
                 driver = new FirefoxDriver();
                 driver.manage().window().maximize();
-                //html = driver.findElement(By.tagName("html"));
-                //html.sendKeys(Keys.chord(Keys.CONTROL, Keys.ADD));
-                driver.get(env_prop.getProperty("web.url"));
-               // String screenshotPath = BaseTest.getScreenshot(driver, "screenshot_");
-               // ExtentTestManager.getTest().log(LogStatus.INFO, ExtentTestManager.getTest().addScreenCapture(screenshotPath));
+                driver.get(env_prop.getProperty("web.url"));               
             } catch (Exception e) {
                 logger.error(e.getMessage());
                 e.printStackTrace();
             }
         } else if (browser.equalsIgnoreCase("chrome")) {
-            System.setProperty(env_prop.getProperty("chrome.webdriver.key"), env_prop.getProperty("chrome.webdriver.value"));
-            driver = new ChromeDriver();
-            driver.manage().window().maximize();
-            html = driver.findElement(By.tagName("html"));
-            html.sendKeys(Keys.chord(Keys.CONTROL, Keys.ADD));
-            driver.get(env_prop.getProperty("web.url"));
-            wait = new WebDriverWait(driver, 40);
-            Thread.sleep(5000);
+            try {
+                System.setProperty(env_prop.getProperty("chrome.webdriver.key"), env_prop.getProperty("chrome.webdriver.value"));
+                driver = new ChromeDriver();
+                driver.manage().window().maximize();
+                driver.get(env_prop.getProperty("web.url"));
+
+                Thread.sleep(5000);
+            } catch (Exception e) {
+                logger.error(e.getMessage());
+                e.printStackTrace();
+            }
         } else if (browser.equalsIgnoreCase("ie")) {
-            System.setProperty(env_prop.getProperty("ie.webdriver.key"), env_prop.getProperty("ie.webdriver.value"));
-            driver = new InternetExplorerDriver();
-            driver.manage().window().maximize();
-            driver.get(env_prop.getProperty("web.url"));
-            wait = new WebDriverWait(driver, 40);
-            Thread.sleep(25000);
-        }else if (browser.equalsIgnoreCase("edge")) {
-            System.setProperty(env_prop.getProperty("edge.webdriver.key"), env_prop.getProperty("edge.webdriver.value"));
-            driver = new EdgeDriver();
-            driver.manage().window().maximize();
-            driver.get(env_prop.getProperty("web.url"));
-            wait = new WebDriverWait(driver, 40);
-            Thread.sleep(1000);
+            try {
+                System.setProperty(env_prop.getProperty("ie.webdriver.key"), env_prop.getProperty("ie.webdriver.value"));
+                driver = new InternetExplorerDriver();
+                driver.manage().window().maximize();
+                driver.get(env_prop.getProperty("web.url"));
+                wait = new WebDriverWait(driver, 40);
+                Thread.sleep(25000);
+            } catch (Exception e) {
+                logger.error(e.getMessage());
+                e.printStackTrace();
+            }
+        } else if (browser.equalsIgnoreCase("edge")) {
+            try {
+                System.setProperty(env_prop.getProperty("edge.webdriver.key"), env_prop.getProperty("edge.webdriver.value"));
+                driver = new EdgeDriver();
+                driver.manage().window().maximize();
+                driver.get(env_prop.getProperty("web.url"));
+                //wait = new WebDriverWait(driver, 40);
+                Thread.sleep(1000);
+            } catch (Exception e) {
+                logger.error(e.getMessage());
+                e.printStackTrace();
+            }
         }
 
     }
@@ -106,7 +118,7 @@ public class BaseTest {
         InputStream inputStream = getClass().getClassLoader().getResourceAsStream("environment.properties");
         env_prop = new Properties();
         env_prop.load(inputStream);
-        inputStream.close();
+       // inputStream.close();
     }
 
     public static String getScreenshot(WebDriver driver, String screenshotName) throws Exception {

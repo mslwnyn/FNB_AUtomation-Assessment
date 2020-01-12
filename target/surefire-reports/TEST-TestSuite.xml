@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="83.67" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="424.313" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.2+9-LTS"/>
@@ -34,8 +34,10 @@
     <property name="java.class.version" value="55.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="jpda.listen" value="true"/>
     <property name="os.version" value="10.0"/>
     <property name="library.jansi.path" value="C:\Users\Tshimologo\apache-maven-3.6.0\bin\..\lib\jansi-native"/>
+    <property name="jpda.address" value="64343"/>
     <property name="user.home" value="C:\Users\Tshimologo"/>
     <property name="user.timezone" value="Africa/Harare"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -43,9 +45,10 @@
     <property name="java.specification.version" value="11"/>
     <property name="user.name" value="Tshimologo"/>
     <property name="java.class.path" value="C:\Users\Tshimologo\apache-maven-3.6.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="maven.surefire.debug" value="-agentlib:jdwp=transport=dt_socket,suspend=n,server=n,address=64343"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dnetbeans.testng.action=true -Dmaven.ext.class.path=C:\Program Files\NetBeans-11.1\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 test-compile surefire:test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Djpda.listen=true -Dmaven.surefire.debug=-agentlib:jdwp=transport=dt_socket,suspend=n,server=n,address=64343 -Dnetbeans.testng.action=true -Djpda.address=64343 -Dmaven.ext.class.path=C:\Program Files\NetBeans-11.1\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 test-compile surefire:test"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-11.0.2"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -64,8 +67,11 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="homePage" classname="za.co.tshimx.fnb.web.testcases.HomePageTest" time="0.96"/>
-  <testcase name="createAccount" classname="za.co.tshimx.fnb.web.testcases.HomePageTest" time="5.259"/>
-  <testcase name="register" classname="za.co.tshimx.fnb.web.testcases.HomePageTest" time="37.253"/>
-  <testcase name="getAPITestMethod" classname="za.co.tshimx.fnb.api.testcases.APITest" time="21.5"/>
+  <testcase name="homePage" classname="za.co.tshimx.fnb.web.testcases.HomePageTest" time="1.293"/>
+  <testcase name="homePage" classname="za.co.tshimx.fnb.web.testcases.HomePageTest" time="0.562"/>
+  <testcase name="createAccount" classname="za.co.tshimx.fnb.web.testcases.HomePageTest" time="10.851"/>
+  <testcase name="createAccount" classname="za.co.tshimx.fnb.web.testcases.HomePageTest" time="10.326"/>
+  <testcase name="register" classname="za.co.tshimx.fnb.web.testcases.HomePageTest" time="281.931"/>
+  <testcase name="register" classname="za.co.tshimx.fnb.web.testcases.HomePageTest" time="51.065"/>
+  <testcase name="getAPITestMethod" classname="za.co.tshimx.fnb.api.testcases.APITest" time="21.464"/>
 </testsuite>

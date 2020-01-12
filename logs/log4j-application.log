@@ -2159,3 +2159,501 @@ Session ID: e1ece741-9879-457d-9936-3a5911dd39b7
 2020-01-10 05:34:29 INFO  APITest:38 - API BeforeMethod url : https://reqres.in/api/users?page=2
 2020-01-10 05:34:50 INFO  APITest:59 - Status code is  200
 2020-01-10 05:34:50 INFO  BaseTest:100 - closeBrowser :  
+2020-01-12 09:46:08 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-12 09:46:08 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-12 09:46:08 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-12 09:46:08 INFO  BaseTest:56 - setupTest :  chrome
+2020-01-12 09:48:53 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-12 09:48:53 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-12 09:48:53 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-12 09:48:53 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-12 09:48:53 ERROR BaseTest:68 - 
+2020-01-12 09:48:54 ERROR BaseTest:44 - 
+2020-01-12 09:48:54 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-12 09:48:54 ERROR BaseTest:58 - 
+2020-01-12 09:48:54 INFO  BaseTest:66 - Starting the test :register  
+2020-01-12 09:48:54 ERROR BaseTest:158 - 
+2020-01-12 09:48:54 INFO  BaseTest:100 - closeBrowser :  
+2020-01-12 09:48:54 INFO  APITest:31 - API BeforeMethod : Setting up 
+2020-01-12 09:48:54 INFO  APITest:35 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-12 09:49:17 INFO  APITest:56 - Status code is  200
+2020-01-12 09:49:17 INFO  APITest:69 - String responseString{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}]}
+2020-01-12 09:49:17 INFO  APITest:70 - JSONObject responseJson : {"per_page":6,"total":12,"data":[{"last_name":"Lawson","id":7,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg","first_name":"Michael","email":"michael.lawson@reqres.in"},{"last_name":"Ferguson","id":8,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg","first_name":"Lindsay","email":"lindsay.ferguson@reqres.in"},{"last_name":"Funke","id":9,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg","first_name":"Tobias","email":"tobias.funke@reqres.in"},{"last_name":"Fields","id":10,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg","first_name":"Byron","email":"byron.fields@reqres.in"},{"last_name":"Edwards","id":11,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg","first_name":"George","email":"george.edwards@reqres.in"},{"last_name":"Howell","id":12,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg","first_name":"Rachel","email":"rachel.howell@reqres.in"}],"page":2,"total_pages":2}
+2020-01-12 09:49:18 INFO  APITest:118 - headerArray : [Lorg.apache.http.Header;@51e0301d
+2020-01-12 09:49:18 INFO  BaseTest:56 - setupTest :  chrome
+2020-01-12 09:49:56 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-12 09:50:02 INFO  BaseTest:66 - Starting the test :register  
+2020-01-12 09:50:05 ERROR BaseTest:158 - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='select-dropdown' and @value='MR']"}
+  (Session info: chrome=79.0.3945.117)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57649}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 93232bfd937cabf4042dc89b4a1ac3fb
+*** Element info: {Using=xpath, value=//*[@class='select-dropdown' and @value='MR']}
+2020-01-12 09:50:05 INFO  BaseTest:100 - closeBrowser :  
+2020-01-12 09:52:20 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-12 09:52:20 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-12 09:52:58 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-12 09:53:03 INFO  BaseTest:66 - Starting the test :register  
+2020-01-12 09:53:41 ERROR BaseTest:158 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200107212705, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 28648, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 835ab0ac-01b2-453d-887a-a3c9a32a2e39
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-12 09:53:41 INFO  BaseTest:100 - closeBrowser :  
+2020-01-12 09:59:40 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-12 09:59:40 INFO  BaseTest:56 - setupTest :  chrome
+2020-01-12 10:00:09 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-12 10:00:14 INFO  BaseTest:66 - Starting the test :register  
+2020-01-12 10:00:15 ERROR BaseTest:158 - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='select-dropdown' and @value='MR']"}
+  (Session info: chrome=79.0.3945.117)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62320}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 565e1db2dbec3e131797c1ff7e9f23e0
+*** Element info: {Using=xpath, value=//*[@class='select-dropdown' and @value='MR']}
+2020-01-12 10:00:15 INFO  BaseTest:100 - closeBrowser :  
+2020-01-12 10:05:42 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-12 10:05:42 INFO  BaseTest:56 - setupTest :  chrome
+2020-01-12 10:06:06 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-12 10:06:11 INFO  BaseTest:54 - About to click Open account Button
+2020-01-12 10:06:11 INFO  BaseTest:56 - Clicked Open account Button  
+2020-01-12 10:06:17 INFO  BaseTest:69 - Starting the test :register  
+2020-01-12 10:06:18 ERROR BaseTest:161 - element not interactable
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62375}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f06195980d36ffa47555bca0b286f6b9
+2020-01-12 10:06:18 INFO  BaseTest:100 - closeBrowser :  
+2020-01-12 10:10:21 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-12 10:10:21 INFO  BaseTest:56 - setupTest :  chrome
+2020-01-12 10:10:44 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-12 10:10:50 INFO  BaseTest:54 - About to click Open account Button
+2020-01-12 10:10:50 INFO  BaseTest:56 - Clicked Open account Button  
+2020-01-12 10:10:56 INFO  BaseTest:69 - Starting the test :register  
+2020-01-12 10:10:57 INFO  BaseTest:89 - Person{title=DR, firstName=Tshimologo, surname=Lebone, email=maslwnyn@yahoo.com, mobileNumber=null, idNumber=3610015800082, rsa_citizen=Yes, username=mngr151690, password=tsHimolo@123}
+2020-01-12 10:11:02 ERROR BaseTest:163 - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='select-dropdown' and @value='MR']"}
+  (Session info: chrome=79.0.3945.117)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57242}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e8338957dd5ea8066dc29624ec29b7eb
+*** Element info: {Using=xpath, value=//*[@class='select-dropdown' and @value='MR']}
+2020-01-12 10:11:02 INFO  BaseTest:100 - closeBrowser :  
+2020-01-12 10:11:19 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-12 10:11:19 INFO  BaseTest:56 - setupTest :  chrome
+2020-01-12 10:11:43 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-12 10:11:48 INFO  BaseTest:54 - About to click Open account Button
+2020-01-12 10:11:49 INFO  BaseTest:56 - Clicked Open account Button  
+2020-01-12 10:11:54 INFO  BaseTest:69 - Starting the test :register  
+2020-01-12 10:11:55 INFO  BaseTest:89 - Person{title=DR, firstName=Tshimologo, surname=Lebone, email=maslwnyn@yahoo.com, mobileNumber=null, idNumber=3610015800082, rsa_citizen=Yes, username=mngr151690, password=tsHimolo@123}
+2020-01-12 10:12:00 ERROR BaseTest:163 - element not interactable
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57302}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 619281edaa20cbb047381f3728af3a7f
+2020-01-12 10:12:01 INFO  BaseTest:100 - closeBrowser :  
+2020-01-12 10:13:45 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-12 10:13:45 INFO  BaseTest:56 - setupTest :  ie
+2020-01-12 10:14:29 ERROR BaseTest:44 - Unable to get browser
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:39405/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 061c0ccd-227c-402e-b966-ee1053fa669d
+2020-01-12 10:14:29 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-12 10:14:34 INFO  BaseTest:54 - About to click Open account Button
+2020-01-12 10:14:34 ERROR BaseTest:61 - Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:39405/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 061c0ccd-227c-402e-b966-ee1053fa669d
+*** Element info: {Using=xpath, value=//a[@id='openaccount3']}
+2020-01-12 10:14:34 INFO  BaseTest:69 - Starting the test :register  
+2020-01-12 10:14:35 INFO  BaseTest:89 - Person{title=DR, firstName=Tshimologo, surname=Lebone, email=maslwnyn@yahoo.com, mobileNumber=null, idNumber=3610015800082, rsa_citizen=Yes, username=mngr151690, password=tsHimolo@123}
+2020-01-12 10:14:40 ERROR BaseTest:163 - Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:39405/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 061c0ccd-227c-402e-b966-ee1053fa669d
+*** Element info: {Using=xpath, value=//*[@class='select-dropdown' and @value='MR']}
+2020-01-12 10:14:41 INFO  BaseTest:100 - closeBrowser :  
+2020-01-12 10:15:24 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-12 10:15:24 INFO  BaseTest:56 - setupTest :  ie
+2020-01-12 10:16:09 ERROR BaseTest:44 - Unable to get browser
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:1652/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 889e151e-3e65-4a72-b502-b30855aa7f3a
+2020-01-12 10:16:09 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-12 10:16:14 INFO  BaseTest:54 - About to click Open account Button
+2020-01-12 10:16:14 ERROR BaseTest:61 - Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:1652/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 889e151e-3e65-4a72-b502-b30855aa7f3a
+*** Element info: {Using=xpath, value=//a[@id='openaccount3']}
+2020-01-12 10:16:14 INFO  BaseTest:69 - Starting the test :register  
+2020-01-12 10:16:15 INFO  BaseTest:89 - Person{title=DR, firstName=Tshimologo, surname=Lebone, email=maslwnyn@yahoo.com, mobileNumber=null, idNumber=3610015800082, rsa_citizen=Yes, username=mngr151690, password=tsHimolo@123}
+2020-01-12 10:16:20 ERROR BaseTest:163 - Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:1652/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 889e151e-3e65-4a72-b502-b30855aa7f3a
+*** Element info: {Using=xpath, value=//*[@class='select-dropdown' and @value='MR']}
+2020-01-12 10:16:20 INFO  BaseTest:100 - closeBrowser :  
+2020-01-12 10:16:59 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-12 10:16:59 INFO  BaseTest:56 - setupTest :  edge
+2020-01-12 10:17:47 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-12 10:17:47 INFO  BaseTest:56 - setupTest :  edge
+2020-01-12 10:19:17 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-12 10:19:17 INFO  BaseTest:56 - setupTest :  edge
+2020-01-12 10:20:11 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-12 10:20:11 INFO  BaseTest:56 - setupTest :  chrome
+2020-01-12 10:21:06 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-12 10:21:06 INFO  BaseTest:56 - setupTest :  chrome
+2020-01-12 10:23:46 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-12 10:23:46 INFO  BaseTest:56 - setupTest :  chrome
+2020-01-12 10:24:11 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-12 10:24:16 INFO  BaseTest:54 - About to click Open account Button
+2020-01-12 10:24:17 INFO  BaseTest:56 - Clicked Open account Button  
+2020-01-12 10:24:22 INFO  BaseTest:69 - Starting the test :register  
+2020-01-12 10:24:34 INFO  BaseTest:89 - Person{title=DR, firstName=Tshimologo, surname=Lebone, email=maslwnyn@yahoo.com, mobileNumber=null, idNumber=3610015800082, rsa_citizen=Yes, username=mngr151690, password=tsHimolo@123}
+2020-01-12 10:29:15 ERROR BaseTest:163 - no such element: Unable to locate element: {"method":"xpath","selector":"//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']"}
+  (Session info: chrome=79.0.3945.117)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63329}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 24c5dd3cc556ce863136c3caceb7df1f
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-12 10:29:42 INFO  BaseTest:100 - closeBrowser :  
+2020-01-12 10:30:23 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-12 10:30:23 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-12 10:30:23 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-12 10:30:23 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-12 10:30:24 ERROR BaseTest:68 - 
+2020-01-12 10:30:24 ERROR BaseTest:44 - 
+2020-01-12 10:30:24 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-12 10:30:29 INFO  BaseTest:54 - About to click Open account Button
+2020-01-12 10:30:29 ERROR BaseTest:61 - 
+2020-01-12 10:30:29 INFO  BaseTest:69 - Starting the test :register  
+2020-01-12 10:30:29 ERROR BaseTest:163 - 
+2020-01-12 10:30:29 INFO  BaseTest:100 - closeBrowser :  
+2020-01-12 10:30:29 INFO  APITest:31 - API BeforeMethod : Setting up 
+2020-01-12 10:30:29 INFO  APITest:35 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-12 10:30:51 INFO  APITest:56 - Status code is  200
+2020-01-12 10:30:51 INFO  APITest:69 - String responseString{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}]}
+2020-01-12 10:30:51 INFO  APITest:70 - JSONObject responseJson : {"per_page":6,"total":12,"data":[{"last_name":"Lawson","id":7,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg","first_name":"Michael","email":"michael.lawson@reqres.in"},{"last_name":"Ferguson","id":8,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg","first_name":"Lindsay","email":"lindsay.ferguson@reqres.in"},{"last_name":"Funke","id":9,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg","first_name":"Tobias","email":"tobias.funke@reqres.in"},{"last_name":"Fields","id":10,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg","first_name":"Byron","email":"byron.fields@reqres.in"},{"last_name":"Edwards","id":11,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg","first_name":"George","email":"george.edwards@reqres.in"},{"last_name":"Howell","id":12,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg","first_name":"Rachel","email":"rachel.howell@reqres.in"}],"page":2,"total_pages":2}
+2020-01-12 10:30:51 INFO  APITest:118 - headerArray : [Lorg.apache.http.Header;@314c8b4a
+2020-01-12 10:30:51 INFO  BaseTest:56 - setupTest :  chrome
+2020-01-12 10:35:10 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-12 10:35:10 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-12 10:35:10 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-12 10:35:10 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-12 10:35:10 ERROR BaseTest:68 - 
+2020-01-12 10:35:10 ERROR BaseTest:44 - 
+2020-01-12 10:35:10 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-12 10:35:15 INFO  BaseTest:54 - About to click Open account Button
+2020-01-12 10:35:15 ERROR BaseTest:61 - 
+2020-01-12 10:35:16 INFO  BaseTest:69 - Starting the test :register  
+2020-01-12 10:35:16 ERROR BaseTest:163 - 
+2020-01-12 10:35:16 INFO  BaseTest:100 - closeBrowser :  
+2020-01-12 10:35:16 INFO  APITest:31 - API BeforeMethod : Setting up 
+2020-01-12 10:35:16 INFO  APITest:35 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-12 10:35:37 INFO  APITest:56 - Status code is  200
+2020-01-12 10:35:37 INFO  APITest:69 - String responseString{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}]}
+2020-01-12 10:35:37 INFO  APITest:70 - JSONObject responseJson : {"per_page":6,"total":12,"data":[{"last_name":"Lawson","id":7,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg","first_name":"Michael","email":"michael.lawson@reqres.in"},{"last_name":"Ferguson","id":8,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg","first_name":"Lindsay","email":"lindsay.ferguson@reqres.in"},{"last_name":"Funke","id":9,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg","first_name":"Tobias","email":"tobias.funke@reqres.in"},{"last_name":"Fields","id":10,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg","first_name":"Byron","email":"byron.fields@reqres.in"},{"last_name":"Edwards","id":11,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg","first_name":"George","email":"george.edwards@reqres.in"},{"last_name":"Howell","id":12,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg","first_name":"Rachel","email":"rachel.howell@reqres.in"}],"page":2,"total_pages":2}
+2020-01-12 10:35:37 INFO  APITest:118 - headerArray : [Lorg.apache.http.Header;@3b6c624
+2020-01-12 10:35:37 INFO  BaseTest:56 - setupTest :  chrome
+2020-01-12 10:36:00 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-12 10:36:05 INFO  BaseTest:54 - About to click Open account Button
+2020-01-12 10:36:05 INFO  BaseTest:56 - Clicked Open account Button  
+2020-01-12 10:36:10 INFO  BaseTest:69 - Starting the test :register  
+2020-01-12 10:36:11 INFO  BaseTest:89 - Person{title=DR, firstName=Tshimologo, surname=Lebone, email=maslwnyn@yahoo.com, mobileNumber=null, idNumber=3610015800082, rsa_citizen=Yes, username=mngr151690, password=tsHimolo@123}
+2020-01-12 10:36:17 ERROR BaseTest:163 - element not interactable
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63440}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d2b0f0223afd989727fe38786d894068
+2020-01-12 10:36:17 INFO  BaseTest:100 - closeBrowser :  
+2020-01-12 10:40:46 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-12 10:40:46 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-12 10:40:46 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-12 10:40:46 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-12 10:40:46 ERROR BaseTest:68 - 
+2020-01-12 10:40:46 ERROR BaseTest:44 - 
+2020-01-12 10:40:47 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-12 10:40:52 INFO  BaseTest:54 - About to click Open account Button
+2020-01-12 10:40:52 ERROR BaseTest:61 - 
+2020-01-12 10:40:52 INFO  BaseTest:69 - Starting the test :register  
+2020-01-12 10:40:52 ERROR BaseTest:163 - 
+2020-01-12 10:40:52 INFO  BaseTest:100 - closeBrowser :  
+2020-01-12 10:40:52 INFO  APITest:31 - API BeforeMethod : Setting up 
+2020-01-12 10:40:52 INFO  APITest:35 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-12 10:42:07 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-12 10:42:07 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-12 10:42:07 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-12 10:42:07 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-12 10:42:07 ERROR BaseTest:68 - 
+2020-01-12 10:42:07 ERROR BaseTest:44 - 
+2020-01-12 10:42:08 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-12 10:42:13 INFO  BaseTest:54 - About to click Open account Button
+2020-01-12 10:42:13 ERROR BaseTest:61 - 
+2020-01-12 10:42:13 INFO  BaseTest:69 - Starting the test :register  
+2020-01-12 10:42:13 ERROR BaseTest:163 - 
+2020-01-12 10:42:13 INFO  BaseTest:100 - closeBrowser :  
+2020-01-12 10:42:13 INFO  APITest:31 - API BeforeMethod : Setting up 
+2020-01-12 10:42:13 INFO  APITest:35 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-12 10:42:35 INFO  APITest:56 - Status code is  200
+2020-01-12 10:42:35 INFO  APITest:69 - String responseString{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}]}
+2020-01-12 10:42:35 INFO  APITest:70 - JSONObject responseJson : {"per_page":6,"total":12,"data":[{"last_name":"Lawson","id":7,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg","first_name":"Michael","email":"michael.lawson@reqres.in"},{"last_name":"Ferguson","id":8,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg","first_name":"Lindsay","email":"lindsay.ferguson@reqres.in"},{"last_name":"Funke","id":9,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg","first_name":"Tobias","email":"tobias.funke@reqres.in"},{"last_name":"Fields","id":10,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg","first_name":"Byron","email":"byron.fields@reqres.in"},{"last_name":"Edwards","id":11,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg","first_name":"George","email":"george.edwards@reqres.in"},{"last_name":"Howell","id":12,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg","first_name":"Rachel","email":"rachel.howell@reqres.in"}],"page":2,"total_pages":2}
+2020-01-12 10:42:35 INFO  APITest:118 - headerArray : [Lorg.apache.http.Header;@507d20bb
+2020-01-12 10:42:35 INFO  BaseTest:56 - setupTest :  chrome
+2020-01-12 10:43:03 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-12 10:43:03 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-12 10:43:03 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-12 10:43:52 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-12 10:43:52 ERROR BaseTest:68 - 
+2020-01-12 10:43:53 ERROR BaseTest:44 - 
+2020-01-12 10:43:53 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-12 10:43:58 INFO  BaseTest:54 - About to click Open account Button
+2020-01-12 10:43:58 ERROR BaseTest:61 - 
+2020-01-12 10:43:59 INFO  BaseTest:69 - Starting the test :register  
+2020-01-12 10:43:59 ERROR BaseTest:163 - 
+2020-01-12 10:43:59 INFO  BaseTest:100 - closeBrowser :  
+2020-01-12 10:43:59 INFO  APITest:31 - API BeforeMethod : Setting up 
+2020-01-12 10:43:59 INFO  APITest:35 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-12 10:44:42 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-12 10:44:42 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-12 10:44:42 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-12 10:44:42 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-12 10:47:58 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-12 10:47:58 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-12 10:47:58 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-12 10:47:58 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-12 10:48:55 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-12 10:48:55 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-12 10:48:55 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-12 10:48:55 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-12 10:49:38 ERROR BaseTest:69 - permission denied
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+2020-01-12 10:49:39 ERROR BaseTest:44 - 
+2020-01-12 10:49:39 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-12 10:50:05 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-12 10:50:05 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-12 10:50:05 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-12 10:50:05 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-12 10:50:34 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-12 10:50:39 INFO  BaseTest:54 - About to click Open account Button
+2020-01-12 10:50:39 INFO  BaseTest:56 - Clicked Open account Button  
+2020-01-12 10:50:44 INFO  BaseTest:69 - Starting the test :register  
+2020-01-12 10:50:46 INFO  BaseTest:89 - Person{title=DR, firstName=Tshimologo, surname=Lebone, email=maslwnyn@yahoo.com, mobileNumber=null, idNumber=3610015800082, rsa_citizen=Yes, username=mngr151690, password=tsHimolo@123}
+2020-01-12 10:51:32 ERROR BaseTest:163 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200110003145, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 23776, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e3ad016d-2f83-4731-b70d-7b0d4bd697de
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-12 10:51:32 INFO  BaseTest:101 - closeBrowser :  
+2020-01-12 10:51:36 INFO  APITest:31 - API BeforeMethod : Setting up 
+2020-01-12 10:51:36 INFO  APITest:35 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-12 10:51:56 INFO  APITest:56 - Status code is  200
+2020-01-12 10:51:56 INFO  APITest:69 - String responseString{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}]}
+2020-01-12 10:51:56 INFO  APITest:70 - JSONObject responseJson : {"per_page":6,"total":12,"data":[{"last_name":"Lawson","id":7,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg","first_name":"Michael","email":"michael.lawson@reqres.in"},{"last_name":"Ferguson","id":8,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg","first_name":"Lindsay","email":"lindsay.ferguson@reqres.in"},{"last_name":"Funke","id":9,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg","first_name":"Tobias","email":"tobias.funke@reqres.in"},{"last_name":"Fields","id":10,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg","first_name":"Byron","email":"byron.fields@reqres.in"},{"last_name":"Edwards","id":11,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg","first_name":"George","email":"george.edwards@reqres.in"},{"last_name":"Howell","id":12,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg","first_name":"Rachel","email":"rachel.howell@reqres.in"}],"page":2,"total_pages":2}
+2020-01-12 10:51:57 INFO  APITest:118 - headerArray : [Lorg.apache.http.Header;@4c1d59cd
+2020-01-12 10:51:57 INFO  BaseTest:56 - setupTest :  chrome
+2020-01-12 10:52:18 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-12 10:52:23 INFO  BaseTest:54 - About to click Open account Button
+2020-01-12 10:52:23 INFO  BaseTest:56 - Clicked Open account Button  
+2020-01-12 10:52:29 INFO  BaseTest:69 - Starting the test :register  
+2020-01-12 10:52:29 INFO  BaseTest:89 - Person{title=DR, firstName=Tshimologo, surname=Lebone, email=maslwnyn@yahoo.com, mobileNumber=null, idNumber=3610015800082, rsa_citizen=Yes, username=mngr151690, password=tsHimolo@123}
+2020-01-12 10:52:34 ERROR BaseTest:163 - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='select-dropdown' and @value='MR']"}
+  (Session info: chrome=79.0.3945.117)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63674}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a3fdc36cb786674cecdd1b9d173038f1
+*** Element info: {Using=xpath, value=//*[@class='select-dropdown' and @value='MR']}
+2020-01-12 10:52:34 INFO  BaseTest:101 - closeBrowser :  
+2020-01-12 10:56:10 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-12 10:56:10 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-12 10:56:10 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-12 10:56:10 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-12 10:56:56 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-12 10:56:56 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-12 10:56:56 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-12 10:56:56 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-12 10:57:16 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-12 10:57:21 INFO  BaseTest:54 - About to click Open account Button
+2020-01-12 10:57:21 INFO  BaseTest:56 - Clicked Open account Button  
+2020-01-12 10:57:26 INFO  BaseTest:69 - Starting the test :register  
+2020-01-12 10:57:27 INFO  BaseTest:89 - Person{title=DR, firstName=Tshimologo, surname=Lebone, email=maslwnyn@yahoo.com, mobileNumber=null, idNumber=3610015800082, rsa_citizen=Yes, username=mngr151690, password=tsHimolo@123}
+2020-01-12 10:58:14 ERROR BaseTest:163 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200110003145, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 26716, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9bb4ee59-4195-435e-9f2e-d44283e49e74
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-12 10:58:14 INFO  BaseTest:110 - closeBrowser :  
+2020-01-12 10:58:16 INFO  APITest:31 - API BeforeMethod : Setting up 
+2020-01-12 10:58:16 INFO  APITest:35 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-12 10:58:37 INFO  APITest:56 - Status code is  200
+2020-01-12 10:58:37 INFO  APITest:69 - String responseString{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}]}
+2020-01-12 10:58:37 INFO  APITest:70 - JSONObject responseJson : {"per_page":6,"total":12,"data":[{"last_name":"Lawson","id":7,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg","first_name":"Michael","email":"michael.lawson@reqres.in"},{"last_name":"Ferguson","id":8,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg","first_name":"Lindsay","email":"lindsay.ferguson@reqres.in"},{"last_name":"Funke","id":9,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg","first_name":"Tobias","email":"tobias.funke@reqres.in"},{"last_name":"Fields","id":10,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg","first_name":"Byron","email":"byron.fields@reqres.in"},{"last_name":"Edwards","id":11,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg","first_name":"George","email":"george.edwards@reqres.in"},{"last_name":"Howell","id":12,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg","first_name":"Rachel","email":"rachel.howell@reqres.in"}],"page":2,"total_pages":2}
+2020-01-12 10:58:38 INFO  APITest:118 - headerArray : [Lorg.apache.http.Header;@5d05f453
+2020-01-12 10:58:38 INFO  BaseTest:56 - setupTest :  chrome
+2020-01-12 11:01:37 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-12 11:01:37 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-12 11:01:37 INFO  BaseTest:49 - Before Suite : loading properties 
+2020-01-12 11:01:37 INFO  BaseTest:56 - setupTest :  chrome
+2020-01-12 11:02:07 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-12 11:02:12 INFO  BaseTest:54 - About to click Open account Button
+2020-01-12 11:02:12 INFO  BaseTest:56 - Clicked Open account Button  
+2020-01-12 11:02:18 INFO  BaseTest:69 - Starting the test :register  
+2020-01-12 11:02:34 INFO  BaseTest:89 - Person{title=DR, firstName=Tshimologo, surname=Lebone, email=maslwnyn@yahoo.com, mobileNumber=null, idNumber=3610015800082, rsa_citizen=Yes, username=mngr151690, password=tsHimolo@123}
+2020-01-12 11:12:31 ERROR BaseTest:163 - no such element: Unable to locate element: {"method":"xpath","selector":"//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']"}
+  (Session info: chrome=79.0.3945.117)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63907}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9474a7290a7a4a8c68e621e7d4fcca33
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-12 11:12:38 INFO  BaseTest:110 - closeBrowser :  
+2020-01-12 11:12:39 INFO  APITest:31 - API BeforeMethod : Setting up 
+2020-01-12 11:12:39 INFO  APITest:35 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-12 11:13:02 INFO  APITest:56 - Status code is  200
+2020-01-12 11:13:02 INFO  APITest:69 - String responseString{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}]}
+2020-01-12 11:13:02 INFO  APITest:70 - JSONObject responseJson : {"per_page":6,"total":12,"data":[{"last_name":"Lawson","id":7,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg","first_name":"Michael","email":"michael.lawson@reqres.in"},{"last_name":"Ferguson","id":8,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg","first_name":"Lindsay","email":"lindsay.ferguson@reqres.in"},{"last_name":"Funke","id":9,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg","first_name":"Tobias","email":"tobias.funke@reqres.in"},{"last_name":"Fields","id":10,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg","first_name":"Byron","email":"byron.fields@reqres.in"},{"last_name":"Edwards","id":11,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg","first_name":"George","email":"george.edwards@reqres.in"},{"last_name":"Howell","id":12,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg","first_name":"Rachel","email":"rachel.howell@reqres.in"}],"page":2,"total_pages":2}
+2020-01-12 11:13:03 INFO  APITest:118 - headerArray : [Lorg.apache.http.Header;@2eda4eeb
+2020-01-12 11:13:03 INFO  BaseTest:56 - setupTest :  firefox
+2020-01-12 11:13:29 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-12 11:13:34 INFO  BaseTest:54 - About to click Open account Button
+2020-01-12 11:13:34 INFO  BaseTest:56 - Clicked Open account Button  
+2020-01-12 11:13:39 INFO  BaseTest:69 - Starting the test :register  
+2020-01-12 11:14:46 INFO  BaseTest:89 - Person{title=DR, firstName=Tshimologo, surname=Lebone, email=maslwnyn@yahoo.com, mobileNumber=null, idNumber=3610015800082, rsa_citizen=Yes, username=mngr151690, password=tsHimolo@123}
+2020-01-12 11:15:32 ERROR BaseTest:163 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200110003145, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 29308, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5efb7fa4-4d28-4d00-9392-a56b93b96721
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-12 11:15:33 INFO  BaseTest:110 - closeBrowser :  
+2020-01-12 11:36:40 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-12 11:36:40 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-12 11:36:40 INFO  BaseTest:50 - Before Suite : loading properties 
+2020-01-12 11:36:40 INFO  BaseTest:58 - setupTest :  chrome
+2020-01-12 11:37:41 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-12 11:37:46 INFO  BaseTest:54 - About to click Open account Button
+2020-01-12 11:37:46 INFO  BaseTest:56 - Clicked Open account Button  
+2020-01-12 11:37:52 INFO  BaseTest:69 - Starting the test :register  
+2020-01-12 11:38:17 INFO  BaseTest:89 - Person{title=DR, firstName=Tshimologo, surname=Lebone, email=maslwnyn@yahoo.com, mobileNumber=null, idNumber=3610015800082, rsa_citizen=Yes, username=mngr151690, password=tsHimolo@123}
+2020-01-12 11:39:46 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-12 11:39:46 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-12 11:39:46 INFO  BaseTest:50 - Before Suite : loading properties 
+2020-01-12 11:39:46 INFO  BaseTest:58 - setupTest :  chrome
+2020-01-12 11:40:12 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-12 11:40:17 INFO  BaseTest:54 - About to click Open account Button
+2020-01-12 11:40:17 INFO  BaseTest:56 - Clicked Open account Button  
+2020-01-12 11:40:23 INFO  BaseTest:69 - Starting the test :register  
+2020-01-12 11:40:37 INFO  BaseTest:89 - Person{title=DR, firstName=Tshimologo, surname=Lebone, email=maslwnyn@yahoo.com, mobileNumber=null, idNumber=3610015800082, rsa_citizen=Yes, username=mngr151690, password=tsHimolo@123}
+2020-01-12 11:40:55 ERROR BaseTest:163 - element not interactable
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64200}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b283474ff88e3518ea34187fe15bd1a9
+2020-01-12 11:41:37 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-12 11:41:37 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-12 11:41:37 INFO  BaseTest:50 - Before Suite : loading properties 
+2020-01-12 11:41:37 INFO  BaseTest:58 - setupTest :  chrome
+2020-01-12 11:42:05 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-12 11:42:10 INFO  BaseTest:54 - About to click Open account Button
+2020-01-12 11:42:10 INFO  BaseTest:56 - Clicked Open account Button  
+2020-01-12 11:42:16 INFO  BaseTest:69 - Starting the test :register  
+2020-01-12 11:42:17 INFO  BaseTest:89 - Person{title=DR, firstName=Tshimologo, surname=Lebone, email=maslwnyn@yahoo.com, mobileNumber=null, idNumber=3610015800082, rsa_citizen=Yes, username=mngr151690, password=tsHimolo@123}
+2020-01-12 11:42:22 ERROR BaseTest:163 - element not interactable
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64285}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: aeed1ce1de21d46b976cab13469e2570
+2020-01-12 11:42:22 INFO  BaseTest:112 - closeBrowser :  
+2020-01-12 11:42:23 INFO  APITest:31 - API BeforeMethod : Setting up 
+2020-01-12 11:42:23 INFO  APITest:35 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-12 11:42:44 INFO  BaseTest:12 - API BaseTest : loading properties file 
+2020-01-12 11:42:44 INFO  BaseTest:14 - API BaseTest :  properties loaded  Successfully 
+2020-01-12 11:42:44 INFO  BaseTest:50 - Before Suite : loading properties 
+2020-01-12 11:42:44 INFO  BaseTest:58 - setupTest :  chrome
+2020-01-12 11:43:07 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-12 11:43:12 INFO  BaseTest:54 - About to click Open account Button
+2020-01-12 11:43:13 INFO  BaseTest:56 - Clicked Open account Button  
+2020-01-12 11:43:18 INFO  BaseTest:69 - Starting the test :register  
+2020-01-12 11:43:29 INFO  BaseTest:89 - Person{title=DR, firstName=Tshimologo, surname=Lebone, email=maslwnyn@yahoo.com, mobileNumber=null, idNumber=3610015800082, rsa_citizen=Yes, username=mngr151690, password=tsHimolo@123}
+2020-01-12 11:47:52 ERROR BaseTest:163 - no such element: Unable to locate element: {"method":"xpath","selector":"//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']"}
+  (Session info: chrome=79.0.3945.117)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 79.0.3945.16 (93fcc21110c10..., userDataDir: C:\Users\TSHIMO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64348}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1ed5569a953c08219e56ad8c9e61ac8a
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-12 11:48:00 INFO  BaseTest:112 - closeBrowser :  
+2020-01-12 11:48:01 INFO  APITest:31 - API BeforeMethod : Setting up 
+2020-01-12 11:48:01 INFO  APITest:35 - API BeforeMethod url : https://reqres.in/api/users?page=2
+2020-01-12 11:48:22 INFO  APITest:56 - Status code is  200
+2020-01-12 11:48:22 INFO  APITest:69 - String responseString{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg"}]}
+2020-01-12 11:48:22 INFO  APITest:70 - JSONObject responseJson : {"per_page":6,"total":12,"data":[{"last_name":"Lawson","id":7,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/follettkyle/128.jpg","first_name":"Michael","email":"michael.lawson@reqres.in"},{"last_name":"Ferguson","id":8,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/araa3185/128.jpg","first_name":"Lindsay","email":"lindsay.ferguson@reqres.in"},{"last_name":"Funke","id":9,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/vivekprvr/128.jpg","first_name":"Tobias","email":"tobias.funke@reqres.in"},{"last_name":"Fields","id":10,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/russoedu/128.jpg","first_name":"Byron","email":"byron.fields@reqres.in"},{"last_name":"Edwards","id":11,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/mrmoiree/128.jpg","first_name":"George","email":"george.edwards@reqres.in"},{"last_name":"Howell","id":12,"avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/hebertialmeida/128.jpg","first_name":"Rachel","email":"rachel.howell@reqres.in"}],"page":2,"total_pages":2}
+2020-01-12 11:48:22 INFO  APITest:118 - headerArray : [Lorg.apache.http.Header;@7573b9ee
+2020-01-12 11:48:22 INFO  BaseTest:58 - setupTest :  firefox
+2020-01-12 11:48:42 INFO  BaseTest:51 - Starting the test :createAccount  
+2020-01-12 11:48:47 INFO  BaseTest:54 - About to click Open account Button
+2020-01-12 11:48:47 INFO  BaseTest:56 - Clicked Open account Button  
+2020-01-12 11:48:53 INFO  BaseTest:69 - Starting the test :register  
+2020-01-12 11:48:57 INFO  BaseTest:89 - Person{title=DR, firstName=Tshimologo, surname=Lebone, email=maslwnyn@yahoo.com, mobileNumber=null, idNumber=3610015800082, rsa_citizen=Yes, username=mngr151690, password=tsHimolo@123}
+2020-01-12 11:49:43 ERROR BaseTest:163 - Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSLWNYN', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200110003145, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 10008, moz:profile: C:\Users\Tshimologo\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 676740ce-efb8-48cb-982c-4a6773dc37c1
+*** Element info: {Using=xpath, value=//label[@class='rc-anchor-center-item rc-anchor-checkbox-label']}
+2020-01-12 11:49:44 INFO  BaseTest:112 - closeBrowser :  

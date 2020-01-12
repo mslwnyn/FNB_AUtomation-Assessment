@@ -125,6 +125,11 @@ public class Person {
     public void setIdNumber(String idNumber) {
         this.idNumber = idNumber;
     }
+
+    @Override
+    public String toString() {
+        return "Person{" + "title=" + title + ", firstName=" + firstName + ", surname=" + surname + ", email=" + email + ", mobileNumber=" + mobileNumber + ", idNumber=" + idNumber + ", rsa_citizen=" + rsa_citizen + ", username=" + username + ", password=" + password + '}';
+    }
         
         
 	

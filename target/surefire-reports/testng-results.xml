@@ -1,27 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-01-10T03:33:30Z" name="All Test Suite" finished-at="2020-01-10T03:34:53Z" duration-ms="82642">
+  <suite started-at="2020-01-12T09:42:44Z" name="All Test Suite" finished-at="2020-01-12T09:49:46Z" duration-ms="422548">
     <groups>
     </groups>
-    <test started-at="2020-01-10T03:33:30Z" name="Create Account: HomePage" finished-at="2020-01-10T03:34:53Z" duration-ms="82642">
-      <class name="za.co.tshimx.fnb.api.testcases.APITest">
-        <test-method is-config="true" signature="setUP()[pri:0, instance:za.co.tshimx.fnb.api.testcases.APITest@19d481b]" started-at="2020-01-10T03:34:29Z" name="setUP" finished-at="2020-01-10T03:34:29Z" duration-ms="2" status="PASS">
+    <test started-at="2020-01-12T09:42:44Z" name="Create Account Chrome: HomePage" finished-at="2020-01-12T09:48:01Z" duration-ms="317105">
+      <class name="za.co.tshimx.fnb.web.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:za.co.tshimx.fnb.web.testcases.HomePageTest@17497425]" started-at="2020-01-12T09:42:44Z" name="setUp" finished-at="2020-01-12T09:43:06Z" duration-ms="22073" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUP -->
-        <test-method signature="getAPITestMethod()[pri:0, instance:za.co.tshimx.fnb.api.testcases.APITest@19d481b]" started-at="2020-01-10T03:34:29Z" name="getAPITestMethod" finished-at="2020-01-10T03:34:50Z" duration-ms="21236" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="homePage()[pri:0, instance:za.co.tshimx.fnb.web.testcases.HomePageTest@17497425]" started-at="2020-01-12T09:43:06Z" name="homePage" finished-at="2020-01-12T09:43:07Z" duration-ms="1152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method signature="createAccount()[pri:0, instance:za.co.tshimx.fnb.web.testcases.HomePageTest@17497425]" started-at="2020-01-12T09:43:07Z" name="createAccount" finished-at="2020-01-12T09:43:18Z" depends-on-methods="za.co.tshimx.fnb.web.testcases.HomePageTest.homePage" duration-ms="10812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method signature="register()[pri:0, instance:za.co.tshimx.fnb.web.testcases.HomePageTest@17497425]" started-at="2020-01-12T09:43:18Z" name="register" finished-at="2020-01-12T09:48:00Z" depends-on-methods="za.co.tshimx.fnb.web.testcases.HomePageTest.createAccount" duration-ms="281726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:za.co.tshimx.fnb.web.testcases.HomePageTest@17497425]" started-at="2020-01-12T09:48:00Z" name="closeBrowser" finished-at="2020-01-12T09:48:01Z" duration-ms="774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- za.co.tshimx.fnb.web.testcases.HomePageTest -->
+    </test> <!-- Create Account Chrome: HomePage -->
+    <test started-at="2020-01-12T09:48:01Z" name="API Test" finished-at="2020-01-12T09:48:22Z" duration-ms="21386">
+      <class name="za.co.tshimx.fnb.api.testcases.APITest">
+        <test-method signature="getAPITestMethod()[pri:0, instance:za.co.tshimx.fnb.api.testcases.APITest@534a5a98]" started-at="2020-01-12T09:48:01Z" name="getAPITestMethod" finished-at="2020-01-12T09:48:22Z" duration-ms="21245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAPITestMethod -->
+        <test-method is-config="true" signature="setUP()[pri:0, instance:za.co.tshimx.fnb.api.testcases.APITest@534a5a98]" started-at="2020-01-12T09:48:01Z" name="setUP" finished-at="2020-01-12T09:48:01Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
       </class> <!-- za.co.tshimx.fnb.api.testcases.APITest -->
+    </test> <!-- API Test -->
+    <test started-at="2020-01-12T09:48:22Z" name="Create Account Firefox: HomePage" finished-at="2020-01-12T09:49:46Z" duration-ms="83745">
       <class name="za.co.tshimx.fnb.web.testcases.HomePageTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:za.co.tshimx.fnb.web.testcases.HomePageTest@51f116b8]" started-at="2020-01-10T03:33:30Z" name="beforeSuite" finished-at="2020-01-10T03:33:30Z" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:za.co.tshimx.fnb.web.testcases.HomePageTest@576d5deb]" started-at="2020-01-12T09:42:44Z" name="beforeSuite" finished-at="2020-01-12T09:42:44Z" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:za.co.tshimx.fnb.web.testcases.HomePageTest@51f116b8]" started-at="2020-01-10T03:33:30Z" name="setUp" finished-at="2020-01-10T03:33:45Z" duration-ms="14607" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:za.co.tshimx.fnb.web.testcases.HomePageTest@576d5deb]" started-at="2020-01-12T09:48:22Z" name="setUp" finished-at="2020-01-12T09:48:42Z" duration-ms="19136" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,23 +65,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="homePage()[pri:0, instance:za.co.tshimx.fnb.web.testcases.HomePageTest@51f116b8]" started-at="2020-01-10T03:33:45Z" name="homePage" finished-at="2020-01-10T03:33:46Z" duration-ms="955" status="PASS">
+        <test-method signature="homePage()[pri:0, instance:za.co.tshimx.fnb.web.testcases.HomePageTest@576d5deb]" started-at="2020-01-12T09:48:42Z" name="homePage" finished-at="2020-01-12T09:48:42Z" duration-ms="422" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePage -->
-        <test-method signature="createAccount()[pri:0, instance:za.co.tshimx.fnb.web.testcases.HomePageTest@51f116b8]" started-at="2020-01-10T03:33:46Z" name="createAccount" finished-at="2020-01-10T03:33:51Z" depends-on-methods="za.co.tshimx.fnb.web.testcases.HomePageTest.homePage" duration-ms="5258" status="PASS">
+        <test-method signature="createAccount()[pri:0, instance:za.co.tshimx.fnb.web.testcases.HomePageTest@576d5deb]" started-at="2020-01-12T09:48:42Z" name="createAccount" finished-at="2020-01-12T09:48:52Z" depends-on-methods="za.co.tshimx.fnb.web.testcases.HomePageTest.homePage" duration-ms="10186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAccount -->
-        <test-method signature="register()[pri:0, instance:za.co.tshimx.fnb.web.testcases.HomePageTest@51f116b8]" started-at="2020-01-10T03:33:51Z" name="register" finished-at="2020-01-10T03:34:29Z" depends-on-methods="za.co.tshimx.fnb.web.testcases.HomePageTest.createAccount" duration-ms="37243" status="PASS">
+        <test-method signature="register()[pri:0, instance:za.co.tshimx.fnb.web.testcases.HomePageTest@576d5deb]" started-at="2020-01-12T09:48:53Z" name="register" finished-at="2020-01-12T09:49:43Z" depends-on-methods="za.co.tshimx.fnb.web.testcases.HomePageTest.createAccount" duration-ms="50925" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- register -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:za.co.tshimx.fnb.web.testcases.HomePageTest@51f116b8]" started-at="2020-01-10T03:34:50Z" name="closeBrowser" finished-at="2020-01-10T03:34:53Z" duration-ms="2551" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:za.co.tshimx.fnb.web.testcases.HomePageTest@576d5deb]" started-at="2020-01-12T09:49:44Z" name="closeBrowser" finished-at="2020-01-12T09:49:46Z" duration-ms="2625" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- za.co.tshimx.fnb.web.testcases.HomePageTest -->
-    </test> <!-- Create Account: HomePage -->
+    </test> <!-- Create Account Firefox: HomePage -->
   </suite> <!-- All Test Suite -->
 </testng-results>

@@ -4,13 +4,29 @@
     <listeners>
         <listener class-name="za.co.tshimx.fnb.testutils.TestListener"/>
     </listeners>
+    
+    <test  name="Create Account Chrome: HomePage" preserve-order="true" >
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="za.co.tshimx.fnb.web.testcases.HomePageTest"/>
+        </classes>
+    </test>
+    
+    <test  name="API Test" preserve-order="true" >
+        <classes>
+                <class name="za.co.tshimx.fnb.api.testcases.APITest"/>
+        </classes>
+    </test>
 
-    <test  name="Create Account: HomePage" preserve-order="true" >
+    <test  name="Create Account Firefox: HomePage" preserve-order="true" >
         <parameter name="browser" value="firefox"/>
         <classes>
             <class name="za.co.tshimx.fnb.web.testcases.HomePageTest"/>
-            <class name="za.co.tshimx.fnb.api.testcases.APITest"/>
         </classes>
     </test>
+    
+    
+    
+    
     
 </suite>

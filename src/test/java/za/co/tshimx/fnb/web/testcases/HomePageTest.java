@@ -27,13 +27,12 @@ import za.co.tshimx.fnb.utils.XLUtils;
  * @author Tshimologo
  */
 public class HomePageTest extends BaseTest {
-
     
     @Test
     public void homePage() {
         
         try {
-             
+              ExtentTestManager.getTest().log(LogStatus.INFO, "Browser used : " + browserType.toUpperCase());
               if(driver.getTitle().equalsIgnoreCase("FNB - Stockbroking and Portfolio Management")){
                   ExtentTestManager.getTest().log(LogStatus.PASS, "Title page is correct :FNB - Stockbroking and Portfolio Management");
                   takescreenshot();
@@ -51,7 +50,10 @@ public class HomePageTest extends BaseTest {
         try {
             logger.info("Starting the test :createAccount  ");
             HomePageObjects homepage = PageFactory.initElements(driver, HomePageObjects.class);
-            homepage.ClickOpenAccountLink();
+            Thread.sleep(5000);
+            logger.info("About to click Open account Button");
+            homepage.clickOpenAccountLink();
+            logger.info("Clicked Open account Button  ");
             Thread.sleep(5000);
             takescreenshot();
 
@@ -84,8 +86,10 @@ public class HomePageTest extends BaseTest {
                     person.setRsa_citizen(userdata[0][7]);
                     person.setPassword(userdata[0][8]);                     
             }   
-
+            logger.info(person.toString());
+            Thread.sleep(5000);
             registerPage.setTitle(person.getTitle()); 
+            Thread.sleep(5000);
             registerPage.setEmail(person.getEmail());
             registerPage.setMobileNumber(MobileNumberGenerator.getPhoneNumber());
             registerPage.setCitizen(person.getRsa_citizen());
@@ -132,8 +136,7 @@ public class HomePageTest extends BaseTest {
             // Select Product
             String filePath= System.getProperty("user.dir")+"/data_files/testdata.xlsx";
             Random random = new Random();
-            String userdata[][] = getData(filePath,  "product");
-            
+            String userdata[][] = getData(filePath,  "product");            
             int randomNumber = random.nextInt(4);
             String selected_product = userdata[randomNumber][0];
              if (selected_product.equalsIgnoreCase("Local Trading Account")) {
@@ -160,8 +163,7 @@ public class HomePageTest extends BaseTest {
             logger.error(e.getMessage());            
             if(e.getMessage().contains("Unable to locate element: //label[@class='rc-anchor-center-item rc-anchor-checkbox-label']")){
                  ExtentTestManager.getTest().log(LogStatus.PASS,e.getMessage());                 
-            }
-           
+            }           
         }
     }
         
@@ -171,15 +173,11 @@ public class HomePageTest extends BaseTest {
         int colCount = XLUtils.getCellCount(filePath, sheet, 0);
         String data[][] = new String[rowCount][colCount];
         for (int i = 1; i <= rowCount; i++) {
-
             for (int j = 0; j < colCount; j++) {
-
                 data[i - 1][j] = XLUtils.getCellData(filePath, sheet, i, j);
                 //System.out.print("\t"+ data[i - 1][j]) ;
-
             }
-            //System.out.println();
-            
+            //System.out.println();            
         }
         return data;
     }

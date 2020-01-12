@@ -1,8 +1,5 @@
 package za.co.tshimx.fnb.api.testcases;
 
-
-
-
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.relevantcodes.extentreports.LogStatus;
 import java.io.FileWriter;
@@ -57,11 +54,9 @@ public class APITest extends BaseTest {
             int statusCode = closeableHttpResponse.getStatusLine().getStatusCode();
             if (statusCode == 200) {
                 logger.info("Status code is  " + statusCode);
-                System.out.println("Status code is  " + statusCode);
                 ExtentTestManager.getTest().log(LogStatus.INFO, "Status code is  " + statusCode);
              }else{
                  logger.info("Status code is  " + statusCode);
-                 System.out.println("Status code is  " + statusCode);
                  ExtentTestManager.getTest().log(LogStatus.FAIL, "Status code is  " + statusCode);
              }
            
@@ -71,8 +66,9 @@ public class APITest extends BaseTest {
             ExtentTestManager.getTest().log(LogStatus.INFO,"JSON OBJECT: " + responseString);
             
             JSONObject responseJson = new JSONObject(responseString);
-            System.out.println("String responseString"+ responseString);
-            System.out.println("JSONObject responseJson : "+ responseJson);
+            logger.info("String responseString"+ responseString);
+            logger.info("JSONObject responseJson : "+ responseJson);
+            
             
             UsersPage usersPage= jsonToJavaObject(responseString);
             writetoFile(usersPage.toString());  
@@ -119,7 +115,8 @@ public class APITest extends BaseTest {
             for (Header header : headerArray) {
                 allHeaders.put(header.getName(), header.getValue());
             }
-            System.out.println(headerArray);
+            logger.info("headerArray : "+ headerArray);
+            
             ExtentTestManager.getTest().log(LogStatus.INFO,"HEADERS "+ allHeaders.toString());
         }catch(Exception e){
             e.printStackTrace();
